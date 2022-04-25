@@ -1,2 +1,2 @@
-# Lorenzo Palloni's personal website
+#### Lorenzo Palloni's personal website
 [https://lorenzopalloni.github.io](https://lorenzopalloni.github.io)
