@@ -149,7 +149,7 @@ menu:
         - name: Posts
           url: posts/
           weight: 3
-        - name: Rèsumè
+        - name: Résumé
           url: "LorenzoPalloniCV.pdf"
           weight: 4
 
