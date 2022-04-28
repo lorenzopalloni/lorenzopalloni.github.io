@@ -10,7 +10,7 @@ The main purpose of this post is for personal future reference, but I think (and
 
 ### Let's start!
 
-Assuming that you are in the installation environment, logged in the first virtual console as the root user, and presented with a Zsh shell prompt. If not, follow the first steps described [here](https://wiki.archlinux.org/title/Installation_guide).
+I assume that you are in the installation environment, logged in the first virtual console as the root user, and presented with a Zsh shell prompt. If not, follow the first steps described [here](https://wiki.archlinux.org/title/Installation_guide).
 
 Enable internet access through `iwctl` for Wi-Fi or an Ethernet cable.
 
