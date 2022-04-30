@@ -1,5 +1,5 @@
 ---
-title: "How to Replicate This Website"
+title: "How to create a personal website"
 date: 2022-04-25T16:41:49+02:00
 draft: true
 ---
