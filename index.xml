@@ -18,5 +18,15 @@ I gathered here all the steps that I took to install Arch Linux on my desktop co
 Let&amp;rsquo;s start! I assume that you are in the installation environment, logged in the first virtual console as the root user, and presented with a Zsh shell prompt.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://lorenzopalloni.github.io/posts/arch-linux-set-up-utilities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lorenzopalloni.github.io/posts/arch-linux-set-up-utilities/</guid>
+      <description>Arch Linux set up utilities The following are mini-guides to set up and to troubleshoot some of the issues that I had to deal with using Arch Linux. Use them with caution. 😉
+dotfiles  Clone the repo https://gitlab.com/dotfiles move all the ./dotfiles/.* to $HOME install and configure oh-my-zsh.  redshift: an alternative to Night Light (Gnome) redshift -P -O 4000 If it doesn&amp;rsquo;t work, try to run the following (check redshift wiki for more information)</description>
+    </item>
+    
   </channel>
 </rss>
