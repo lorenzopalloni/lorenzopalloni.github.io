@@ -1,4 +1,10 @@
-# Arch Linux set up utilities
+---
+title: "Arch Linux utilities for set-up and troubleshooting"
+date: 2022-04-25T16:41:49+02:00
+draft: true
+---
+
+# Arch Linux utilities for set-up and troubleshooting
 
 The following are mini-guides to set up and to troubleshoot some of the issues that I had to deal with using Arch Linux.
 Use them with caution. 😉
