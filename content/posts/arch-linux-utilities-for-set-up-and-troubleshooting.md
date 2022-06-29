@@ -152,3 +152,12 @@ git push -u origin main
 git remote set-url ––add origin https://github.com/<username>/<repo-name>.git
 ```
 
+#### Useful command line ools
+
+* exa - https://github.com/ogham/exa
+* bat - https://github.com/sharkdp/bat
+* ripgrep - https://github.com/BurntSushi/ripgrep
+* fzf - https://github.com/junegunn/fzf
+* zoxide - https://github.com/ajeetdsouza/zoxide
+* entr - https://github.com/eradman/entr
+* mc - https://midnight-commander.org/
