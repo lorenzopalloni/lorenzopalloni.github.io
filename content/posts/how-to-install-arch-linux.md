@@ -2,6 +2,7 @@
 title: "How to install Arch Linux 💻"
 date: 2022-04-20T15:44:10+02:00
 draft: false
+tags: ["arch-linux", "linux", "installation", "arch"]
 ---
 Hi there! 😊
 

@@ -1,13 +1,12 @@
 ---
-title: "Arch Linux utilities for set-up and troubleshooting"
+title: "Arch Linux: maintenance and enhancements"
 date: 2022-04-25T16:41:49+02:00
 draft: true
+tags: ["arch-linux", "linux", "installation", "arch"]
 ---
 
-# Arch Linux utilities for set-up and troubleshooting
-
-The following are mini-guides to set up and to troubleshoot some of the issues that I had to deal with using Arch Linux.
-Use them with caution. 😉
+# Arch Linux: maintenance and enhancements
+This post is a collection of useful commands and tips for the maintenance and enhancement of an Arch Linux system. Use them with caution. 😉
 
 #### dotfiles
 1. Clone the repo https://gitlab.com/dotfiles
