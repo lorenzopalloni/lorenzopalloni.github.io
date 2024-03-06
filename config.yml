@@ -22,7 +22,7 @@ params:
   # Theme Customization
   defaultTheme: auto  # Automatically switch between light and dark mode based on user preference
   ShowShareButtons: true  # Display share buttons at the bottom of single posts
-  ShowReadingTime: true  # Show estimated reading time for posts
+  ShowReadingTime: false  # Show estimated reading time for posts
   ShowCodeCopyButtons: true  # Show 'Copy' button for code blocks
   comments: true  # Enable comments on posts
 
