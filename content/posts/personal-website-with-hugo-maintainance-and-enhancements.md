@@ -1,7 +1,7 @@
 ---
-title: "Personal website with Hugo: maintainance and enhancements"
-date: 2024-03-06T12:37:08+01:00
-draft: true
+title: "Personal website with Hugo: Maintainance and Enhancements"
+date: 2024-03-06T10:31:21+01:00
+draft: false
 tags: ["hugo", "website"]
 ---
 

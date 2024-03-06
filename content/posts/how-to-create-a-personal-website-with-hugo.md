@@ -1,7 +1,7 @@
 ---
 title: "How to create a personal website with Hugo"
-date: 2022-04-25T16:41:49+02:00
-draft: true
+date: 2024-03-06T07:28:41+01:00
+draft: false
 tags: ["hugo", "website"]
 ---
 
