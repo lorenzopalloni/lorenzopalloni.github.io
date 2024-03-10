@@ -5,6 +5,7 @@
     <link>https://lorenzopalloni.github.io/bio/</link>
     <description>Recent content in Bio on Lorenzo Palloni</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://lorenzopalloni.github.io/bio/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://lorenzopalloni.github.io/bio/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

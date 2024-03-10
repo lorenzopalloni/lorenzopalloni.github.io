@@ -6,17 +6,46 @@
     <description>Recent content in Posts on Lorenzo Palloni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Apr 2022 16:01:53 +0200</lastBuildDate><atom:link href="https://lorenzopalloni.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Mar 2024 08:15:21 +0100</lastBuildDate>
+    <atom:link href="https://lorenzopalloni.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal website with Hugo: Maintainance and Enhancements</title>
+      <link>https://lorenzopalloni.github.io/posts/personal-website-with-hugo-maintainance-and-enhancements/</link>
+      <pubDate>Thu, 07 Mar 2024 08:15:21 +0100</pubDate>
+      <guid>https://lorenzopalloni.github.io/posts/personal-website-with-hugo-maintainance-and-enhancements/</guid>
+      <description>Hi there! 😊
+Here, I gathered some tips to maintain and enhance my personal website, which is built with Hugo. If you would like to create a website like mine, you can follow the steps described in another post I wrote: How to create a personal website with Hugo.
+General maintainance Theme update (or change) When you reclone the repo you may need to run the following command. Check if .</description>
+    </item>
+    <item>
+      <title>How to create a personal website with Hugo</title>
+      <link>https://lorenzopalloni.github.io/posts/how-to-create-a-personal-website-with-hugo/</link>
+      <pubDate>Wed, 06 Mar 2024 07:28:41 +0100</pubDate>
+      <guid>https://lorenzopalloni.github.io/posts/how-to-create-a-personal-website-with-hugo/</guid>
+      <description>Hi there! 😊
+If you like this website, maybe you would like to have a similar page for yourself too. In this post, I&amp;rsquo;m going to describe the major steps involved.
+Let&amp;rsquo;s start! 1. Install Hugo This website has been built using a static site generator called Hugo. So, the very first thing to do would be to install Hugo.
+In my case (Arch Linux), I would run the following:</description>
+    </item>
+    <item>
+      <title>Arch Linux: Maintenance and Enhancements</title>
+      <link>https://lorenzopalloni.github.io/posts/arch-linux-maintainance-and-enhancements/</link>
+      <pubDate>Mon, 25 Apr 2022 16:41:49 +0200</pubDate>
+      <guid>https://lorenzopalloni.github.io/posts/arch-linux-maintainance-and-enhancements/</guid>
+      <description>Hi there! 👋
+This post is a collection of commands and tips that I have found useful during my journey with Arch Linux. Use them with caution. 😉
+If you would like to install Arch Linux, you can follow the steps described here.
+Install Vim Install gvim (and not vim, because it doesn&amp;rsquo;t support the system clipboard):
+pacman -S gvim I don&amp;rsquo;t remember exactly why, you should tick the following box: Preferences &amp;gt; Profiles:loopai &amp;gt; Colors &amp;gt; check &amp;quot;show bold text in bright colors&amp;quot;.</description>
+    </item>
     <item>
       <title>How to install Arch Linux 💻</title>
       <link>https://lorenzopalloni.github.io/posts/how-to-install-arch-linux/</link>
       <pubDate>Wed, 20 Apr 2022 15:44:10 +0200</pubDate>
-      
       <guid>https://lorenzopalloni.github.io/posts/how-to-install-arch-linux/</guid>
       <description>Hi there! 😊
 I gathered here all the steps that I took to install Arch Linux on my desktop computer. The main purpose of this post is for personal future reference, but I think (and hope) that someone else might find it useful as well.
 Let&amp;rsquo;s start! I assume that you are in the installation environment, logged in the first virtual console as the root user, and presented with a Zsh shell prompt.</description>
     </item>
-    
   </channel>
 </rss>
