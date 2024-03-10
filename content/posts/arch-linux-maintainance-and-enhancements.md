@@ -1,73 +1,72 @@
 ---
-title: "Arch Linux utilities for set-up and troubleshooting"
+title: "Arch Linux: Maintenance and Enhancements"
 date: 2022-04-25T16:41:49+02:00
-draft: true
+draft: false
+tags: ["arch-linux", "linux", "installation", "arch"]
 ---
+Hi there! 👋
 
-# Arch Linux utilities for set-up and troubleshooting
-
-The following are mini-guides to set up and to troubleshoot some of the issues that I had to deal with using Arch Linux.
+This post is a collection of commands and tips that I have found useful during my journey with Arch Linux.
 Use them with caution. 😉
 
-#### dotfiles
-1. Clone the repo https://gitlab.com/dotfiles
-2. move all the `./dotfiles/.*` to `$HOME`
-3. install and configure [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation).
+If you would like to install Arch Linux, you can follow the steps described [here](../posts/how-to-install-arch-linux.md).
 
-#### redshift: an alternative to Night Light (Gnome)
+### Install Vim
+Install `gvim` (and not `vim`, because it doesn't support the system clipboard):
+```sh
+pacman -S gvim
+```
+
+I don't remember exactly why, you should tick the following box:
+    `Preferences > Profiles:loopai > Colors > check "show bold text in bright colors".`
+
+### Dotfiles Management
+Clone a repository containing your dotfiles and move them to your home directory. You can take inspiration from [mine](https://github.com/lorenzopalloni/dotfiles), if you want.
+```sh
+git clone git@github.com:lorenzopalloni/dotfiles.git
+mv ./dotfiles/.* $HOME
+```
+### Oh-My-Zsh Installation
+Install Oh-My-Zsh by running the following command:
+```sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### Redshift: an alternative to Night Light (Gnome)
+Adjust your screen's color temperature with redshift:
 ```sh
 redshift -P -O 4000
 ```
-If it doesn't work, try to run the following (check redshift wiki for more information)
+If you encounter issues, enabling the geoclue-agent.service might help:
 ```sh
 systemctl enable geoclue-agent.service
 ```
+Check out the [Arch Wiki](https://wiki.archlinux.org/title/Redshift) for more information.
 
-#### ranger: best file manager ever
+### ranger: a terminal file manager
+I love navigating through my files using Vim commands.
 ```sh
 pacman -S ranger
 pacman -S w3m  # allow embedded preview
 ```
 
-#### vim and zsh setup
-1. Install gvim (and not vim, because it doesn't have system clipboard support):
-```sh
-pacman -S gvim
-```
-2. Install oh-my-zsh (guide in its website)
-3. Retrieve your dotfiles:
-```sh
-git clone https://gitlab.com/loopai/dotfiles
-cd dotfiles
-mv .vimrc, .zshrc files -t $HOME
-```
-4. In gnome-terminal:
-    Preferences > Profiles:loopai > Colors > check "show bold text in bright colors".
-
-#### Python setup
-Download the installer script from https://conda.io/en/latest/miniconda.html.
-Run that script, then launch the following:
-```sh
-conda config --set auto_activate_base false
-```
-
-#### Removing title bar in GTK applications (Gnome)
+### Removing title bar in GTK applications (Gnome)
 Launch the following and install GTK Title Bar gnome extension
 ```sh
 yay gtktitlebar
 ```
 
-#### Preventing Gnome to put you in overview at start-up
+### Preventing Gnome to put you in overview at start-up
 ```sh
 yay no-overview
 ```
 
-#### Checking your current Gnome version
+### Checking your current Gnome version
 ```sh
 gnome-software --version
 ```
 
-#### Gnome title bar size reduction
+### Gnome title bar size reduction
 1. Copy-paste the content of the above file in `~/.config/gtk-3.0/gtk.css`
 2. Run the following command:
 ```sh
@@ -124,11 +123,11 @@ window.ssd headerbar.titlebar button.titlebutton {
 }
 ```
 
-#### How to prevent google-chrome to do weird visual effects
+### How to prevent google-chrome to do weird visual effects
 Browse `about:settings` on google-chrome and deactivate the following option:
 `Use hardware acceleration when available`
 
-#### How to enhance sound quality of Jabra earbuds (Jabra Elite Active 75t)
+### How to enhance sound quality of Jabra earbuds (Jabra Elite Active 75t)
 ```sh
 pacman -S pipewire-pulse
 pacman -S pipewire-alsa
@@ -136,7 +135,7 @@ pacman -S pipewire-alsa
 [Here](https://www.reddit.com/r/Jabra/comments/j5489d/if_you_use_jabra_earbuds_with_linux_you_need_to/) an old reference.
 Check out the Arch Wiki for more information.
 
-#### How to initialize a GitLab repository from terminal
+#### Initialize a GitLab repository from terminal
 ```sh
 cd <project-name>
 git init
@@ -147,12 +146,12 @@ git commit -m "First commit"
 git push -u origin main
 ```
 
-#### How to add two remote origin to one repository
+### Add multiple remote origins to your Git repository
 ```sh
-git remote set-url ––add origin https://github.com/<username>/<repo-name>.git
+git remote set-url --add origin https://github.com/<username>/<repo-name>.git
 ```
 
-#### Useful command line ools
+### Useful command line tools
 
 * exa - https://github.com/ogham/exa
 * bat - https://github.com/sharkdp/bat

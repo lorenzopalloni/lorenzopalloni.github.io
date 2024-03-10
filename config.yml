@@ -1,155 +1,95 @@
+# Basic Configuration
 baseURL: "https://lorenzopalloni.github.io"
 languageCode: en-us
 title: Lorenzo Palloni
 theme: "PaperMod"
 
-enableEmoji: true
-pygmentsUseClasses: true  # ?
+# Features
+enableEmoji: true  # Enable Emoji support
+pygmentsUseClasses: true  # Use CSS classes for syntax highlighting instead of inline styles
 
+# Minification Settings
 minify:
-    disableXML: true
-    minifyOutput: true  # ?
+  disableXML: true  # Disable minification for XML files
+  minifyOutput: true  # Enable output minification for faster page load
 
+# Site Parameters
 params:
-    author: Lorenzo Palloni
-    description: "Lorenzo Palloni's personal website."
-    env: production  # to enable google analytics, opengraph, twitter-cards and schema.
+  author: Lorenzo Palloni
+  description: "Lorenzo Palloni's personal website."
+  env: production  # Use 'production' for live sites to enable additional features like analytics
 
-    defaultTheme: auto
-    ShowShareButtons: true  # bottom share buttons in single posts
-    ShareButtons: false
-    ShowReadingTime: true
-    ShowCodeCopyButtons: true
-    comments: true
-    # images: ["me_thinking.jpeg"]  # ?
-    # enableInlineShortcodes: true
-    # ShowToc: true
-    # disableThemeToggle: true
-    # disableSpecial1stPost: true
-    # displayFullLangName: true
-    # ShowPostNavLinks: true
-    # ShowBreadCrumbs: true
+  # Theme Customization
+  defaultTheme: auto  # Automatically switch between light and dark mode based on user preference
+  ShowShareButtons: true  # Display share buttons at the bottom of single posts
+  ShowReadingTime: false  # Show estimated reading time for posts
+  ShowCodeCopyButtons: true  # Show 'Copy' button for code blocks
+  comments: true  # Enable comments on posts
 
-    profileMode:
-        enabled: true
-        title: Lorenzo Palloni
-        subtitle: >
-            R&D Machine Learning Engineer
-        # imageUrl: "me_thinking_cropped.jpeg"
-        # imageTitle: Me thinking
-        # imageWidth: 150
-        # imageHeight: 150
-        buttons:
-            # - name: Bio
-            #   url: bio/
-            #   weight: 1
-            # - name: Works
-            #   url: works/
-            #   weight: 2
-            # - name: Posts
-            #   url: posts/
-            #   weight: 3
+  # Profile Configuration (Displayed prominently on the home page)
+  profileMode:
+    enabled: false
+    title: Lorenzo Palloni
+    subtitle: "Personal Blog. [More about me](./bio/)."
+    imageUrl: "me_thinking_cropped.jpeg"
+    buttons: []
+    # Example button configuration:
+    # - name: Bio
+    #   url: bio/
+    #   weight: 1
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/lorenzopalloni"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/lorenzo-palloni-758b76145"
+  # Social Icons (Displayed in the footer or header)
+  socialIcons:
+    - name: github
+      url: "https://github.com/lorenzopalloni"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/lorenzo-palloni-758b76145"
 
-    # homeInfoParams:
-    #     Title: "Lorenzo Palloni"
-    #     Content: >
-    #         Welcome to my website! 😊
+  # Site Assets
+  assets:
+    favicon: "icon-64x64.ico"
+    # Additional favicon sizes and icons can be specified here
 
+  homeInfoParams:
+    enabled: true
+    title: Lorenzo Palloni
+    content: "Personal Blog. [More about me](./bio/)."
+    imageUrl: "me_thinking_cropped.jpeg"
+    buttons: []
+    # Example button configuration:
+    # - name: Bio
+    #   url: bio/
+    #   weight: 1
 
-#     editPost:
-#         URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-#         Text: "Suggest Changes" # edit text
-#         appendFilePath: true # to append file path to Edit link
-
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
-
-    assets:
-        favicon: "icon-64x64.ico"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
-
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
-
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
-
-# taxonomies:
-#     category: categories
-#     tag: tags
-#     series: series
-
-# markup:
-#     goldmark:
-#         renderer:
-#             unsafe: true
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         # noClasses: false
-#         style: monokai
-
-# privacy:
-#     vimeo:
-#         disabled: false
-#         simple: true
-#
-#     twitter:
-#         disabled: false
-#         enableDNT: true
-#         simple: true
-#
-#     instagram:
-#         disabled: false
-#         simple: true
-#
-#     youtube:
-#         disabled: false
-#         privacyEnhanced: true
-#
-# services:
-#     instagram:
-#         disableInlineCSS: true
-#     twitter:
-#         disableInlineCSS: true
-
+# Menu Configuration
 menu:
-    main:
-        - name: Bio
-          url: bio/
-          weight: 1
-        # - name: Works
-        #   url: works/
-        #   weight: 2
-        - name: Posts
-          url: posts/
-          weight: 3
-        - name: Résumé
-          url: "LorenzoPalloniCV.pdf"
-          weight: 4
+  main:
+    - name: Bio
+      url: bio/
+      weight: 1
+    - name: Posts
+      url: posts/
+      weight: 3
+    - name: Résumé
+      url: "LorenzoPalloniResume.pdf"
+      weight: 4
 
+# Uncomment and configure the sections below as needed
+# editPost:
+#   URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+#   Text: "Suggest Changes"
+#   appendFilePath: true
+
+# analytics:
+#   google:
+#     SiteVerificationTag: "Your Google Site Verification Code"
+
+# Privacy settings for various services
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
