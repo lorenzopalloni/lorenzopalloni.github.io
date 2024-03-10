@@ -28,9 +28,9 @@ params:
 
   # Profile Configuration (Displayed prominently on the home page)
   profileMode:
-    enabled: true
+    enabled: false
     title: Lorenzo Palloni
-    subtitle: "[Embedded Machine Learning Engineer](./posts/what-does-an-embedded-ml-engineer-do/)"
+    subtitle: "Personal Blog. [More about me](./bio/)."
     imageUrl: "me_thinking_cropped.jpeg"
     buttons: []
     # Example button configuration:
@@ -50,6 +50,17 @@ params:
     favicon: "icon-64x64.ico"
     # Additional favicon sizes and icons can be specified here
 
+  homeInfoParams:
+    enabled: true
+    title: Lorenzo Palloni
+    content: "Personal Blog. [More about me](./bio/)."
+    imageUrl: "me_thinking_cropped.jpeg"
+    buttons: []
+    # Example button configuration:
+    # - name: Bio
+    #   url: bio/
+    #   weight: 1
+
 # Menu Configuration
 menu:
   main:
@@ -60,7 +71,7 @@ menu:
       url: posts/
       weight: 3
     - name: Résumé
-      url: "LorenzoPalloniCV.pdf"
+      url: "LorenzoPalloniResume.pdf"
       weight: 4
 
 # Uncomment and configure the sections below as needed

@@ -4,7 +4,6 @@ date: 2024-03-06T07:28:41+01:00
 draft: false
 tags: ["hugo", "website"]
 ---
-
 Hi there! 😊
 
 If you like this website, maybe you would like to have a similar page for yourself too. In this post, I'm going to describe the major steps involved.

@@ -1,16 +1,15 @@
 ---
 title: "Personal website with Hugo: Maintainance and Enhancements"
-date: 2024-03-06T10:31:21+01:00
+date: 2024-03-07T08:15:21+01:00
 draft: false
 tags: ["hugo", "website"]
 ---
-
 Hi there! 😊
 
-If you would like to create from scratch a personal website with Hugo, you can follow the steps described in the post [How to create a personal website with Hugo](../posts/how-to-create-a-personal-website-with-hugo.md).
+Here, I gathered some tips to maintain and enhance my personal website, which is built with Hugo. If you would like to create a website like mine, you can follow the steps described in another post I wrote: [How to create a personal website with Hugo](../posts/how-to-create-a-personal-website-with-hugo.md).
+
 
 ### General maintainance
-
 #### Theme update (or change)
 When you reclone the repo you may need to run the following command.
 Check if `./theme/<theme-name>/` is an empty folder.
@@ -84,3 +83,5 @@ Create a file in `./layout/partial/comments.html` with a content similar to the 
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 ```
+
+Hope this helps! 😊
