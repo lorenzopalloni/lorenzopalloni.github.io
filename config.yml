@@ -43,7 +43,7 @@ params:
     - name: github
       url: "https://github.com/lorenzopalloni"
     - name: linkedin
-      url: "https://www.linkedin.com/in/lorenzo-palloni-758b76145"
+      url: "https://www.linkedin.com/in/lorenzopalloni/"
 
   # Site Assets
   assets:
