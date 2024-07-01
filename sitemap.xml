@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lorenzopalloni.github.io/posts/a-job-description-for-an-embedded-machine-learning-engineer-role/</loc>
+    <lastmod>2024-07-01T16:59:50+02:00</lastmod>
+  </url><url>
+    <loc>https://lorenzopalloni.github.io/tags/embedded-systems/</loc>
+    <lastmod>2024-07-01T16:59:50+02:00</lastmod>
+  </url><url>
+    <loc>https://lorenzopalloni.github.io/tags/engineering/</loc>
+    <lastmod>2024-07-01T16:59:50+02:00</lastmod>
+  </url><url>
+    <loc>https://lorenzopalloni.github.io/</loc>
+    <lastmod>2024-07-01T16:59:50+02:00</lastmod>
+  </url><url>
+    <loc>https://lorenzopalloni.github.io/tags/machine-learning/</loc>
+    <lastmod>2024-07-01T16:59:50+02:00</lastmod>
+  </url><url>
+    <loc>https://lorenzopalloni.github.io/tags/</loc>
+    <lastmod>2024-07-01T16:59:50+02:00</lastmod>
+  </url><url>
+    <loc>https://lorenzopalloni.github.io/posts/brief-personal-note-about-jealousy/</loc>
+    <lastmod>2024-06-10T08:27:22+02:00</lastmod>
+  </url><url>
+    <loc>https://lorenzopalloni.github.io/tags/polyamory/</loc>
+    <lastmod>2024-06-10T08:27:22+02:00</lastmod>
+  </url><url>
     <loc>https://lorenzopalloni.github.io/tags/hugo/</loc>
     <lastmod>2024-03-07T08:15:21+01:00</lastmod>
   </url><url>
-    <loc>https://lorenzopalloni.github.io/</loc>
-    <lastmod>2024-03-07T08:15:21+01:00</lastmod>
-  </url><url>
     <loc>https://lorenzopalloni.github.io/posts/personal-website-with-hugo-maintainance-and-enhancements/</loc>
-    <lastmod>2024-03-07T08:15:21+01:00</lastmod>
-  </url><url>
-    <loc>https://lorenzopalloni.github.io/tags/</loc>
     <lastmod>2024-03-07T08:15:21+01:00</lastmod>
   </url><url>
     <loc>https://lorenzopalloni.github.io/tags/website/</loc>

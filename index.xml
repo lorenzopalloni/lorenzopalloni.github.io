@@ -6,8 +6,28 @@
     <description>Recent content on Lorenzo Palloni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Mar 2024 08:15:21 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 16:59:50 +0200</lastBuildDate>
     <atom:link href="https://lorenzopalloni.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Job Description for an Embedded Machine Learning Engineer Role</title>
+      <link>https://lorenzopalloni.github.io/posts/a-job-description-for-an-embedded-machine-learning-engineer-role/</link>
+      <pubDate>Mon, 01 Jul 2024 16:59:50 +0200</pubDate>
+      <guid>https://lorenzopalloni.github.io/posts/a-job-description-for-an-embedded-machine-learning-engineer-role/</guid>
+      <description>Online I couldn&amp;rsquo;t find much information about which responsibilities an Embedded Machine Learning Engineer actually has. So, I thought it could be helpful to share the description I wrote for my current role.
+Job Title: Embedded Machine Learning Engineer Role Overview: As an Embedded Machine Learning Engineer, you will collaborate with a highly interdisciplinary team to deliver end-to-end (software and hardware) application-use cases. Your work will involve developing, deploying, and maintaining firmware as well as Machine Learning pipelines, ensuring they run efficiently on our hardware platforms.</description>
+    </item>
+    <item>
+      <title>Brief Personal Note About Jealousy</title>
+      <link>https://lorenzopalloni.github.io/posts/brief-personal-note-about-jealousy/</link>
+      <pubDate>Mon, 10 Jun 2024 08:27:22 +0200</pubDate>
+      <guid>https://lorenzopalloni.github.io/posts/brief-personal-note-about-jealousy/</guid>
+      <description>Jealousy
+/ˈdʒel.ə.si/
+noun
+“A tormenting feeling caused by the fear, suspicion, or certainty of losing the loved one to someone else.”
+From a monogamous perspective, deepening a romantic or sexual relationship with one person inevitably distances you from the possibility of doing so with a third person. This unwritten rule of monogamy pushes our minds to the fear of losing the loved one if someone else comes into play.
+In a polyamorous context, jealousy exists but manifests in a more &amp;ldquo;natural&amp;rdquo; way.</description>
+    </item>
     <item>
       <title>Personal website with Hugo: Maintainance and Enhancements</title>
       <link>https://lorenzopalloni.github.io/posts/personal-website-with-hugo-maintainance-and-enhancements/</link>
