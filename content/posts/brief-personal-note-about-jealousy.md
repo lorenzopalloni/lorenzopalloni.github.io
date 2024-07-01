@@ -1,7 +1,8 @@
 ---
 title: "Brief Personal Note About Jealousy"
 date: 2024-06-10T08:27:22+02:00
-draft: true
+draft: false
+tags: ["polyamory"]
 ---
 
 Jealousy  

@@ -29,4 +29,3 @@ Resources:
 - [The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/), by Steven W. Smith, Ph.D. 
 
 - [Spiking Neural Networks tutorial](https://snntorch.readthedocs.io/en/latest/tutorials/index.html), by [Jason Eshraghian](https://www.jasoneshraghian.com/)
-
